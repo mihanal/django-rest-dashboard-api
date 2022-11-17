@@ -1,0 +1,379 @@
+[
+   {
+      "model":"league.Team",
+      "pk":1,
+      "fields":{
+         "name":"Gladiators"
+      }
+   },
+   {
+      "model":"league.Team",
+      "pk":2,
+      "fields":{
+         "name":"Sunrisers"
+      }
+   },
+   {
+      "model":"league.Team",
+      "pk":3,
+      "fields":{
+         "name":"Challengers"
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":1,
+      "fields":{
+         "first_name":"Admin",
+         "last_name":"One",
+         "username" : "admin",
+         "password": "123",
+         "is_admin": true
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":2,
+      "fields":{
+         "first_name":"Alex",
+         "last_name":"Hales",
+         "username" : "Alex",
+         "password": "123",
+         "is_coach": true
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":3,
+      "fields":{
+         "first_name":"Ben",
+         "last_name":"Stokes",
+         "username" : "Ben",
+         "password": "123",
+         "is_coach": true
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":4,
+      "fields":{
+         "first_name":"Dawid",
+         "last_name":"Malan",
+         "username" : "Dawid",
+         "password": "123",
+         "is_coach": true
+      }
+   },
+   {
+      "model":"league.Coach",
+      "pk":1,
+      "fields":{
+         "user_id": 2,
+         "team": 1
+      }
+   },
+   {
+      "model":"league.Coach",
+      "pk": 2,
+      "fields":{
+         "user_id": 3,
+         "team": 2
+      }
+   },
+   {
+      "model":"league.Coach",
+      "pk": 3,
+      "fields":{
+         "user_id": 4,
+         "team": 3
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":5,
+      "fields":{
+         "first_name":"Sanath",
+         "last_name":"Jaya",
+         "username" : "Sanath",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk": 1,
+      "fields":{
+         "user_id" : 5,
+         "height":153,
+         "team":1,
+         "games": [1,3]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":6,
+      "fields":{
+         "first_name":"Mick",
+         "last_name":"Clark",
+         "username" : "Mick",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":2,
+      "fields":{
+         "user_id" : 6,
+         "height":165,
+         "team":1,
+         "games": [1,3]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":7,
+      "fields":{
+         "first_name":"James",
+         "last_name":"Bond",
+         "username" : "James",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":3,
+      "fields":{
+         "user_id" : 7,
+         "height":167,
+         "team":1,
+         "games": [1,3]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":8,
+      "fields":{
+         "first_name":"Edward",
+         "last_name":"Sam",
+         "username" : "Edward",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":4,
+      "fields":{
+         "user_id" : 8,
+         "height":167,
+         "team":2,
+         "games": [1,2]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":9,
+      "fields":{
+         "first_name":"Oliver",
+         "last_name":"James",
+         "username" : "Oliver",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":5,
+      "fields":{
+         "user_id" : 9,
+         "height":167,
+         "team":2,
+         "games": [1,2]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":10,
+      "fields":{
+         "first_name":"Benjamin",
+         "last_name":"Lucas",
+         "username" : "Benjamin",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":6,
+      "fields":{
+         "user_id" : 10,
+         "height":177,
+         "team":2,
+         "games": [1,2]
+      }
+   },
+      {
+      "model":"league.User",
+      "pk":11,
+      "fields":{
+         "first_name":"Lucas",
+         "last_name":"Henry",
+         "username" : "Lucas",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":7,
+      "fields":{
+         "user_id" : 11,
+         "height":197,
+         "team":3,
+         "games": [2,3]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":12,
+      "fields":{
+         "first_name":"Alexander",
+         "last_name":"Mason",
+         "username" : "Alexander",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":8,
+      "fields":{
+         "user_id" : 12,
+         "height":169,
+         "team":3,
+         "games": [2,3]
+      }
+   },
+   {
+      "model":"league.User",
+      "pk":13,
+      "fields":{
+         "first_name":"Michael",
+         "last_name":"Ethan",
+         "username" : "Michael",
+         "password": "123",
+         "is_player": true
+      }
+   },
+   {
+      "model":"league.Player",
+      "pk":9,
+      "fields":{
+         "user_id" : 13,
+         "height":187,
+         "team":3,
+         "games": [2,3]
+      }
+   },
+   {
+      "model":"league.Game",
+      "pk":1,
+      "fields": {
+         "venue" : "New York"
+      }
+   },
+   {
+      "model":"league.Game",
+      "pk":2,
+      "fields": {
+         "venue" : "California"
+      }
+   },
+   {
+      "model":"league.Game",
+      "pk":3,
+      "fields": {
+         "venue" : "Texas"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":1,
+      "fields": {
+         "team": 1,
+         "game": 1,
+         "score": 67,
+         "result": "won"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":2,
+      "fields": {
+         "team": 2,
+         "game": 1,
+         "score": 60,
+         "result": "lost"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":3,
+      "fields": {
+         "team": 2,
+         "game": 2,
+         "score": 80,
+         "result": "won"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":4,
+      "fields": {
+         "team": 3,
+         "game": 2,
+         "score": 72,
+         "result": "lost"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":5,
+      "fields": {
+         "team": 3,
+         "game": 3,
+         "score": 63,
+         "result": "won"
+      }
+   },
+   {
+      "model":"league.Summary",
+      "pk":6,
+      "fields": {
+         "team": 1,
+         "game": 3,
+         "score": 61,
+         "result": "lost"
+      }
+   },
+   {
+      "model":"league.Score",
+      "pk":1,
+      "fields":{
+         "game": 1,
+         "player": 1,
+         "count" : 30
+      }
+   },
+   {
+      "model":"league.Score",
+      "pk":2,
+      "fields":{
+         "game": 1,
+         "player": 2,
+         "count" : 30
+      }
+   }
+]
