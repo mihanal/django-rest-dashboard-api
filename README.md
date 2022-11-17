@@ -26,6 +26,9 @@ Start the application:
 
 `$ python manage.py runserver`
 
+Admin user:
+`user : admin | pass : 123`
+
 ## API Reference
 
 | Endpoint | HTTP Method     | Result                |
